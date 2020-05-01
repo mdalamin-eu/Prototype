@@ -1,5 +1,5 @@
 import React from 'react';
-//import SearchInput from '../common/SearchInput'
+import SearchInput from '../Common/SearchInput'
 const SearchArea = () => {
     return(
         <section className="hero-section pt-5 pb-5">
@@ -11,7 +11,7 @@ const SearchArea = () => {
                                 <div className="card-body">
                                     <h3 className="card-title mb-3">find your perfect cat breed</h3>
                                     <form>
-                                        {/*<SearchInput/>*/}
+                                        <SearchInput/>
 
                                     </form>
                                 </div>
