@@ -44,8 +44,8 @@ class SearchLists extends Component {
             }
             
     render() {
-    const {searchedData, loading} = this.state
-    console.log(searchedData.lengthlength)
+    const {searchedData, loading, error} = this.state
+    console.log(error)
     let  searchedDataContent;
     if(loading){
         searchedDataContent=<Loading/>
@@ -55,7 +55,7 @@ class SearchLists extends Component {
             searchedDataContent = <BreedFeed data={searchedData}/>
         }
         else{
-            if(this.state.error.length>0){
+            if(this.state.error.length > 0){
                 searchedDataContent = <h1>Data Not found</h1>
             }
         }
@@ -71,8 +71,8 @@ class SearchLists extends Component {
             
             {searchedDataContent}
             </div>
-                    </div>
-                </section>
+            </div>
+         </section>
             </div>
         )
     }
