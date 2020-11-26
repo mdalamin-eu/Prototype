@@ -11,4 +11,4 @@
 <img src="photo/dtls_breed.png" width="700" height="400">
 
 - `All Breeds,`
-<img src="photo/All_Breeds.png" width="700" height="400">
+<img src="photo/All Breeds.png" width="700" height="400">
